@@ -4,7 +4,7 @@
     "description": "",
     "main": "src/main/index.js",
     "scripts": {
-        "start": "node src/main/index.js"
+        "start": "node ./src/main/index.js"
     },
     "author": "ELijah FuNNy!",
     "license": "ISC",
