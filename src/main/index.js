@@ -33,7 +33,7 @@ bot.on('message', msg => {
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
-                msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!')
+                msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
 
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
