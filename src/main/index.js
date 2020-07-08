@@ -18,49 +18,17 @@ bot.on('ready', () => {
 
 
 bot.on('message', msg => {
-    if (msg.content === "HEY YOLO WHAT IS YOUR AGE?") {
-        msg.reply('just shut up, i do not want to talk about it right now.');
-    }
-})
 
-bot.on('message', msg => {
-    if (msg.content === "are u stoopid") {
-        msg.reply('yes');
-    }
-})
+    let args = msg.content.substring(PREFIX.length).split(" ");
 
 
-bot.on('message', msg => {
-    if (msg.content === "is ginger stupid") {
-        msg.reply('yes');
-    }
-})
-
-
-bot.on('message', msg => {
-    if (msg.content === "?commands") {
-        msg.reply('Each command starts with the prefix "?".');
-    }
-})
-
-
-bot.on('message', msg => {
     if (msg.content === "?") {
         msg.reply('Ok.. I am listening!');
     }
-})
 
-
-bot.on('message', msg => {
     if (msg.content === "do you like Jimmy Neutron") {
         msg.reply('YES! YES! YES! YES!  YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES! YES!');
     }
-})
-
-
-bot.on('message', msg => {
-
-    let args = msg.content.substring(PREFIX.length).split(" ");
 
     switch (args[0]) {
         case 'act-like-Carl-Wheezer':
