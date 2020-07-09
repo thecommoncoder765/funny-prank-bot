@@ -28,6 +28,10 @@ bot.on('message', msg => {
 
             if (!args[1]) {
 
+                if (args[1] === 'stop') {
+                    msg.reply("o k   s o r r y  :  (");
+                    break;
+                }
 
                 msg.reply('OKEY DOKEY!!!');
                 msg.reply('ARE YOU GOING TO FINISH THAT CWASOOOOOONTTTT!!!!!!?????!!!');
